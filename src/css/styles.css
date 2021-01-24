@@ -1,0 +1,20 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.ag-header-cell-label.ag-header-cell-label {
+  padding: 0;
+}
+
+.ag-theme-alpine .ag-header-cell.ag-header-cell,
+.ag-theme-alpine .ag-header-group-cell.ag-header-group-cell {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.ag-theme-alpine .ag-cell.ag-cell {
+  border: 0px solid transparent;
+  line-height: 30px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
